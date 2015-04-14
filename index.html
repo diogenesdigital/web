@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <HTML LANG='Spanish'>
 <HEAD>
-   <!-- <TITTLE><img src="https://www.dropbox.com/s/ru6yu0b245vhw9e/LOGO-DD.jpg?dl=1" class="img-responsive img-thumbnail" alt="Responsive image"></TITTLE>-->    
+   
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -11,52 +11,100 @@
 </HEAD>        
 <BODY>
   <div class="container">
-    <h1 class="text-rigth">CONTACTA CON NOSOTROS<small> es gratis!</small></h1> 
-    <hr> 
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-         <h3 class="panel-title">Diogenes Digital somos:</h3>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+      <li role="presentation"><a href="#media" aria-controls="media" role="tab" data-toggle="tab">media</a></li>
+      <li role="presentation"><a href="#About" aria-controls="About" role="tab" data-toggle="tab">About</a></li>
+    </ul>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="home">
+        <TITTLE>
+          <img src="https://www.dropbox.com/s/dkpei9rzdo1huqm/cabecera_con_ondas.jpg?dl=1" 
+               class="img-responsive img-thumbnail" 
+               alt="Responsive image">
+        </TITTLE>
       </div>
-      <div class="panel-body">
-        <div class="table-responsive">
-        <table class="table table-hover">
-        <thead>
-          <tr>
-            <th>nombre</th>
-            <th>twitter</th>
-            <th>facebook</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Diognes Digital </td>
-            <td><a href="https://twitter.com/diogenesdigita1">@diogenesdigita1 </a> </td>
-            <td><a href="https://wwww.facebook.com/diogenesdigita1">Diogenes Digital </a>  </td>
-          </tr>
-            <td>Sergio </td>
-            <td><a href="https://twitter.com/micropakito">@micropakito </a> </td>
-            <td> </td>
-          </tr>
-          <tr class="error">
-            <td>Java </td>
-            <td><a href="https://twitter.com/modsweare">@modsweare</a> </td>
-            <td>ME NIEGO</td>
-          </tr>
-          <tr >
-            <td>Carlos </td>
-            <td><a href="https://twitter.com/Aiondawn">@Aiondawn</a> </td>
-            <td>El suyo</td>
-          </tr>
-          <tr >
-            <td>Isra </td>
-            <td><a href="https://twitter.com/Borrachuzo">@Borrachuzo</a> </td>
-            <td>El mio</td>
-          </tr>
-        </tbody>
-        </table>
+      
+      <div role="tabpanel" class="tab-pane" id="profile">
+        ...
       </div>
-    </div>
+      
+      <div role="tabpanel" class="tab-pane" id="media">
+         <div class="media">
+           <div class="media-left">
+             <a href="#">
+               <img class="media-object" src="..." alt="...">
+             </a>
+           </div>
+           <div class="media-body">
+             <h4 class="media-heading">Media heading</h4>
+             ...
+           </div>
+         </div>
+      
+      </div>
+      
+      <div role="tabpanel" class="tab-pane" id="About">          
+            <h1 class="text-rigth">Contacta con nosotros, ¡es gratis!</h1> 
+            <hr> 
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                 <h3 class="panel-title">Diogenes Digital somos:</h3>
+              </div>
+              <div class="panel-body">
+                <div class="table-responsive">
+                  <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>nombre</th>
+                      <th>twitter</th>
+                      <th>facebook</th>
+                      <th>mail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Diogenes Digital </td>
+                      <td><a href="https://twitter.com/diogenesdigita1">@diogenesdigita1 </a> </td>
+                      <td><a href="https://wwww.facebook.com/diogenesdigita1">Diogenes Digital </a>  </td>
+                      <td><a href="mailto:diogenesdigitalpodcast@gmail.com">diogenesdigitalpodcastArrobagmail.com</a></td>
+                    </tr>
+                      <td>Sergio </td>
+                      <td><a href="https://twitter.com/micropakito">@micropakito </a> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="error">
+                      <td>Java </td>
+                      <td><a href="https://twitter.com/modsweare">@modsweare</a> </td>
+                      <td>No tengo</td>
+                      <td>No quiero mas spam</td>
+                    </tr>
+                    <tr >
+                      <td>Carlos </td>
+                      <td><a href="https://twitter.com/Aiondawn">@Aiondawn</a> </td>
+                      <td>El suyo</td>
+                      <td> </td>
+                    </tr>
+                    <tr >
+                      <td>Isra </td>
+                      <td><a href="https://twitter.com/Borrachuzo">@Borrachuzo</a> </td>
+                      <td><a href="https://https://www.facebook.com/israel.a.perez.7">El mio</a></td>
+                      <td><a href="mailto:borrachuzo2001@gmail.com">borrachuzo2001Arrobagmail.com</a></td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+    </div>    
   </div>
-  <button type="button" class="btn button-lg button-primary"><i class="glyphicon glyphicon-ok"></i>  <a href="https://feedpress.me/diogenesdigital">Suscribete al feed</a> </button>
+  <div>
+     <button type="button" class="btn button-lg button-primary"><i class="glyphicon glyphicon-ok"></i>  <a href="https://feedpress.me/diogenesdigital">Suscribete al feed</a> </button>
+  </div>   
 </BODY>
 </HTML>
