@@ -15,7 +15,7 @@
 <body>
   <div class="container">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs hidden-xs" role="tablist" >
       <li role="presentation" class="active"><a href="#home"   aria-controls="home"   role="tab" data-toggle="tab">Home          </a> </li>
       <li role="presentation">               <a href="#Blog"   aria-controls="Blog"   role="tab" data-toggle="tab">Blog          </a> </li>
       <li role="presentation">               <a href="#media"  aria-controls="media" role="tab"  data-toggle="tab">media         </a> </li>
@@ -40,12 +40,22 @@
       <div role="tabpanel" class="tab-pane" id="Blog">
         <br> 
         <br> 
-         <object type="text/html"
+         <object class="embed-responsive-item" 
+                 type="text/html"
                  data="http://diogenesdigitalpodcast.blogspot.com/"
                  width="1140" 
                  height="800">
         </object>
-        <!--Hay que conseguir embeberlo y poner un menu/opción para que se despliegue el object o mandar al blog directamente.-->
+        <!--Hay que conseguir embeberlo y poner un menu/opción para que se despliegue el object o mandar al blog directamente.
+         <hr>
+        <frame  src="http://diogenesdigitalpodcast.blogspot.com"
+                noresize="noresize" 
+                frameborder="1"
+                scrolling="yes">
+                
+        </frame>
+        <hr>-->
+        
       </div>
       
       <div role="tabpanel" class="tab-pane" id="media">
